@@ -27,6 +27,6 @@ jobs:
       - name: Start building kernel
         run: |
              git config --global --add safe.directory /__w/build/build
-             git clone https://github.com/Eagle-Projekt/kernel_xiaomi_sm6225 -b r-oss kernel
+             git clone https://github.com/ardia-kun/kernel_xiaomi_sm6225 -b uvite kernel
              cp -af build.sh kernel/ && cd kernel && chmod +x build.sh
              ./build.sh
